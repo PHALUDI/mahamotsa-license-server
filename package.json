@@ -1,1 +1,12 @@
-add package.json
+{
+  "name": "mahamotsa-license",
+  "version": "1.0.0",
+  "description": "Simple license server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
